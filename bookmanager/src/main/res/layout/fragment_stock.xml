@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="库存查询"
+            android:textSize="22sp"
+            android:textColor="@color/red"/>
+        <RadioButton
+            android:id="@+id/radioAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进货查询"
+            android:textSize="22sp"
+            android:textColor="@color/red"/>
+        <RadioButton
+            android:id="@+id/radioSalfe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="售货查询"
+            android:textSize="22sp"
+            android:textColor="@color/red"/>
+    </RadioGroup>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="条形码"
+            android:textSize="18sp"
+            android:textColor="@color/blue"/>
+
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/blanchedalmond"
+            android:hint="请输入条形码查询"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/barcodeInput"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="书籍名"
+            android:textSize="18sp"
+            android:textColor="@color/blue"/>
+
+        <EditText
+            android:id="@+id/bookNameInput"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/blanchedalmond"
+            android:hint="请输入书籍名查询"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutTime"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/timeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="采购时间"
+            android:textSize="18sp"
+            android:textColor="@color/blue"/>
+
+        <EditText
+            android:id="@+id/timeInput"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/blanchedalmond"
+            android:hint="请输入时间查询"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonCommit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"
+        android:textColor="@color/red"
+        android:padding="10dp"/>
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></ListView>
+
+
+
+</LinearLayout>

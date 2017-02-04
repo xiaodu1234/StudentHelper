@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        ></android.support.v4.view.ViewPager>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+    <!--<RadioGroup-->
+        <!--android:id="@+id/group"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<RadioButton-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/radio_salfe"-->
+            <!--style="@style/RadionButtonStyle"-->
+            <!--android:text="售书"-->
+            <!--android:drawableTop="@drawable/salfe" />-->
+        <!--<RadioButton-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/radio_add"-->
+            <!--style="@style/RadionButtonStyle"-->
+            <!--android:text="进书"-->
+            <!--android:drawableTop="@drawable/add"-->
+          <!--/>-->
+        <!--<RadioButton-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/radio_stock"-->
+            <!--style="@style/RadionButtonStyle"-->
+            <!--android:text="庫存"-->
+            <!--android:drawableTop="@drawable/set" />-->
+        <!--<RadioButton-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/radio_setting"-->
+            <!--style="@style/RadionButtonStyle"-->
+            <!--android:text="设置"-->
+            <!--android:drawableTop="@drawable/stock" />-->
+
+    <!--</RadioGroup>-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

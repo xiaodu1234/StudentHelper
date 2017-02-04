@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="鞍山社报领导来我校视察"
+        android:id="@+id/titleTxt" />
+
+    <TextView
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016-12-1"
+        android:id="@+id/dateTxt" />
+
+    <TextView
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="1月4日 鞍山人民日报校领导来我校视察，主席台的人们进行了hahha a aha a  a"
+        android:singleLine="true"
+        android:id="@+id/contentTXT" />
+</LinearLayout>

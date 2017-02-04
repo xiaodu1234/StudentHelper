@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:id="@+id/drawerLayout"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <FrameLayout
+            android:id="@+id/cotentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigationVieww"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:menu="@menu/menu_nav"
+            android:layout_gravity="left"
+            ></android.support.design.widget.NavigationView>
+
+
+
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <ListView
+        android:id="@+id/orderListView"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    </ListView>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/allMoneyTxt"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="总价： "
+            android:textSize="20sp"
+            android:textColor="@color/orange"/>
+        <EditText
+            android:id="@+id/receiveInput"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+           android:hint="实收金额"
+            android:textSize="20sp"
+            android:textColor="@color/orange"/>
+        <TextView
+            android:id="@+id/outMoneyTxt"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="找零： "
+            android:textSize="20sp"
+            android:textColor="@color/orange"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/salfeButton"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="完成订单"
+        android:textColor="@color/red"
+        />
+
+</LinearLayout>

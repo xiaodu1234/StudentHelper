@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudyDemo.iml" filepath="$PROJECT_DIR$/AndroidStudyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookmanager/bookmanager.iml" filepath="$PROJECT_DIR$/bookmanager/bookmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/presenter/presenter.iml" filepath="$PROJECT_DIR$/presenter/presenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjavademo/rxjavademo.iml" filepath="$PROJECT_DIR$/rxjavademo/rxjavademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/schoolnews/schoolnews.iml" filepath="$PROJECT_DIR$/schoolnews/schoolnews.iml" />
+    </modules>
+  </component>
+</project>

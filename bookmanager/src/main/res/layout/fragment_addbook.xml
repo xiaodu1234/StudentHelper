@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/barcode"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="条形码： "
+            android:inputType="number"
+            android:textSize="20sp"
+            android:textColor="@color/orangered"/>
+        <EditText
+            android:id="@+id/myBarcode"
+            android:textColor="@color/yellow"
+            android:hint="请输入条形码"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="书籍名： "
+            android:textSize="20sp"
+            android:textColor="@color/orangered"/>
+        <EditText
+            android:textColor="@color/yellow"
+            android:hint="请输入书籍名"
+            android:id="@+id/bookName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="作者： "
+
+            android:textSize="20sp"
+            android:textColor="@color/orangered"/>
+        <EditText
+            android:id="@+id/author"
+            android:textColor="@color/yellow"
+            android:hint="请输入作者"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="出版社： "
+
+            android:textSize="20sp"
+            android:textColor="@color/orangered"/>
+        <EditText
+            android:id="@+id/prcess"
+            android:textColor="@color/yellow"
+            android:hint="请输入出版社"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="零售价： "
+
+            android:textSize="20sp"
+            android:textColor="@color/orangered"/>
+        <EditText
+            android:id="@+id/price"
+            android:textColor="@color/yellow"
+            android:hint="请输入零食价"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="进价： "
+            android:inputType="number"
+            android:textSize="20sp"
+            android:textColor="@color/orangered"/>
+        <EditText
+            android:id="@+id/addMoney"
+            android:textColor="@color/yellow"
+            android:hint="请输入进价"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="采购数量： "
+            android:inputType="number"
+            android:textSize="20sp"
+            android:textColor="@color/orangered"/>
+        <EditText
+            android:id="@+id/num"
+            android:textColor="@color/yellow"
+            android:hint="请输入采购数量"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="采购日期： "
+
+            android:textSize="20sp"
+            android:textColor="@color/orangered"/>
+        <EditText
+            android:id="@+id/date"
+            android:textColor="@color/yellow"
+            android:hint="请输入采购日期"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:id="@+id/buttonCommit"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
